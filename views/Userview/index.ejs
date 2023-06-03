@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flights</title>
+</head>
+<body>
+    <h1>All flights</h1>
+    <ul>
+        <% for (let flight of flights){ %>
+            <li><a href="flights/<%= flight._id%> "> <%= flight.airline %> </a> </li>
+            <% } %>
+    </ul>
+</body>
+</html>

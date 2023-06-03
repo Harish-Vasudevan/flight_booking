@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New flight</title>
+</head>
+<body>
+    <form action="/Admin/flights" method="post">
+      <div>
+        <label for="airline"> Airline</label>
+        <input type="text" name="flight[airline]" id="airline">
+    </div>
+
+    <div>
+        <label for="flight_id">flight_id</label>
+        <input type="number" name="flight[flight_id]" id="flight_id">
+    </div>
+
+    <div>
+        <label for="departsloc">Departslocation</label>
+        <input type="text" name="flight[departsloc]" id="departsloc">
+    </div>
+
+    <div>
+        <label for="arrival">Arrival</label>
+        <input type="text" name="flight[arrival]" id="arrival">
+    </div>
+
+    <div>
+        <label for="seatavail">Seatavailability</label>
+        <input type="number" name="flight[seatavail]" id="seatavail">
+    </div>
+  
+    
+    <button> Add flight</button>
+    </form>
+
+</body>
+</html>

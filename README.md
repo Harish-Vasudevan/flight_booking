@@ -20,6 +20,11 @@ library/Module:
   And I still have lot more to do in order to improve the project like
   * session management
   * Passport (module for authentication and authorization)
+  * client side valildation 
+  * server side validation
+  * Exception handling
+  * UI interface (responsiveness)
+  * etc
   
   working ,I  done by best 
   

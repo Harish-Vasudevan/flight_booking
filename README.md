@@ -13,8 +13,8 @@ Database:
 Mongodb(localhost)
 
 library/Module:
- Mongoose (driver for validation of credentail and to make application level validation rather than making database level validations);
- bcrypt( To the  password);
+ Mongoose (driver for validation of credential and to make application level validation rather than making database level validations);
+ bcrypt( To   hash the password);
  
   ///////I have done  by best //////
   And I still have lot more to do in order to improve the project like
